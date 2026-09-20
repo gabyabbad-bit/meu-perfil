@@ -1,0 +1,27 @@
+body{background-image:url("imagens/fundo.jpg");}
+h1{color:#164B50;text-align: left;text-align: center;}
+h2{color:rgb(226, 143, 18);text-align: center;}
+p{color:#164B50;font-family: Arial, Helvetica, sans-serif;font-size: 16px;line: height 1.6;}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #b08a57;
+    float:left;
+    margin-right: 20px;
+}
+.botoes{clear:left;}
+.botoes a{color:white}
+#b1{background-color: green;padding-bottom: 10px;clear:left;}
+#b2{background-color: orange;padding-bottom: 10px;}
+#lista1{color:green;clear:both;}
+#lista2{color:orange;text-align: left;}
+/*width/heigh- altura e largura da imagem/*
+/*border-radius:50%- arredonda os cantos de um elemento/*
+/* 4px espessura da borda,solid- estilo da borda que é linha continua, dashed- borda tracejada, dotted- borda pontilhada */
+/*float-flutuar para um lado-permitindo que outros elementos, como texto, ocupem o espaço ao redor dele, float:left, floar:right, float:none- não flutua
+/* clear-significa limpar o elemento, para não ficar ao lado de elementos flutuantes clear: right,left,both,none/*
+/*
+/*quando quero trocar a cor de dentro dos botões criei uma <div> para os dois botoes .botoes a (que é o link) { abri a chave do css e coloquei a propriedade color: valor white;*/
+/*padding-bottom é o tamanho do espaço do botão, poderia ser 20px ou mais ...
+/*se eu não quero mais nenhum elemento na linha eu posso colocar display:block o elemento vai ocupar a linha inteira ex:#b1{diplay:block;}; agora se quero que fique na mesma linha display:inline; agora fica na mesma linha mas regulo largura e altura display:inline-block
